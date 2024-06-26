@@ -1,4 +1,3 @@
-# Image-croppping-app
 # Image Cropper App
 
 ## Description
