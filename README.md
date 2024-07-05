@@ -43,20 +43,3 @@ The Image Cropper App is a simple GUI application for cropping images. It is bui
 
 5. Save the cropped image by clicking the "Save" button in the cropped image window.
 
-## Code Explanation
-
-- `ImageCropperApp`: Main class for the image cropping application.
-  - `__init__(self, root)`: Initializes the GUI components and binds events.
-  - `center_window(self, window, width, height)`: Centers the application window on the screen.
-  - `load_image(self)`: Loads an image from the filesystem.
-  - `display_image(self)`: Displays the loaded image on the canvas.
-  - `update_scaled_image(self)`: Resizes the image to fit within the window.
-  - `draw_image_on_canvas(self)`: Draws the resized image on the canvas.
-  - `reset_canvas(self)`: Resets the canvas and clears any drawings.
-  - `on_button_press(self, event)`: Handles the event when the mouse button is pressed on the canvas.
-  - `on_mouse_drag(self, event)`: Handles the event when the mouse is dragged over the canvas.
-  - `on_button_release(self, event)`: Handles the event when the mouse button is released on the canvas.
-  - `crop_image(self)`: Crops the image based on the selected rectangle.
-  - `show_cropped_image(self, cropped_image)`: Displays the cropped image in a new window.
-  - `save_image(self, cropped_image)`: Saves the cropped image to the filesystem.
-  - `on_window_resize(self, event)`: Redraws the image on the canvas when the window is resized.
